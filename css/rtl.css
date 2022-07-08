@@ -1,0 +1,89 @@
+.introduction-text h1 {
+  width: 40%;
+  max-width: 40%;
+}
+.landing-page {
+  min-height: 100vh;
+  background-image: url(../imgs/1440x850\ -\ Copy.jpg);
+  /* background-size: cover; */
+  /* position: relative; */
+}
+.header-area .links.open {
+  right: 0;
+
+  text-align: right;
+}
+.intro-box .items {
+  flex-direction: row-reverse;
+}
+.header-area .links li {
+  margin-left: 10px;
+}
+.header-area .links a {
+  margin-right: 20px;
+}
+/* about us */
+.about .img img {
+  height: 100%;
+}
+.about .info .icon img {
+  margin-right: 0;
+  margin-left: 5px;
+}
+/* about us*/
+
+/* ionvestment */
+.about.investment .info p {
+  font-size: 26px;
+}
+/* investment*/
+
+/* carsoul */
+.owl-carousel {
+  direction: ltr;
+}
+
+/* Testimoial */
+.testimonials .arrows {
+  justify-content: flex-end;
+}
+.testimonials .info .info-pic img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+/* footer */
+.footer {
+  direction: ltr;
+}
+/* footer */
+
+/* my own framework */
+
+.show span {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* my own framework */
+.owl-carousel a {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: right;
+  color: #000;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+  .intro-box .items {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 30px;
+    margin-right: -60px;
+  }
+
+  .intro-box .items .item:nth-of-type(1),
+  .intro-box .items .item:nth-of-type(2) {
+    margin-right: 20px;
+  }
+}
+/* responsive */
